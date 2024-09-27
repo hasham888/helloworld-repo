@@ -40,4 +40,8 @@ if __name__ == "__main__":
     calculator()
 def power(x, y):
     return x ** y
+import math
+
+def sqrt(x):
+    return math.sqrt(x)
 
