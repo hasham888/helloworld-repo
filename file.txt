@@ -1,7 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 initial comtent
 
 =======
 hello ...initial content
 comment added from sepbranch
 >>>>>>> sepbranch
+=======
+initial content
+modified on octbranch`
+>>>>>>> octbranch
