@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Pull code from GitHub
-                git 'https://github.com/your-username/your-repo.git'
+                // Update branch to 'main' instead of 'master'
+                git branch: 'main', url: 'https://github.com/your-username/your-repo.git'
             }
         }
         stage('Build') {
